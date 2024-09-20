@@ -4,7 +4,7 @@ This project aims to analyze customer churn using Power BI. By transforming the 
 ## Understanding the Data
 The dataset contains the following features:
 
-**Customer_id**: Unique identifier for each customer.
+**Customer_id**: Unique identifier for each customer. \n
 **Credit_score**: Customer’s credit score.
 **Country**: Country where the customer resides.
 **Gender**: Customer’s gender.
