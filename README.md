@@ -17,7 +17,7 @@ The dataset contains the following features:
 **Estimated_Salary**: The estimated salary of the customer.  
 **Churn**: Whether the customer has churned (1 = Churned, 0 = Active).  
 
-### Step 1: Data Transformation
+## Step 1: Data Transformation
 The following transformations were applied to clean and prepare the dataset:  
 
 **Removed "estimated_salary"**: As account balance was deemed a better indicator for analysis.  
@@ -28,7 +28,7 @@ The following transformations were applied to clean and prepare the dataset:
 **Created Reference Columns**: Introduced new columns for age groups, account balance ranges, and credit score ranges to enhance visualizations.  
 These steps ensured the data was clean, structured, and ready for analysis.  
 
-### Step 2: Visualizations
+## Step 2: Visualizations
 After data preparation, the following visualizations were created using Power BI:  
 
 **Churn Rate Overview**: Displays overall churn rate and trends over time.  
@@ -36,6 +36,9 @@ After data preparation, the following visualizations were created using Power BI
 **Churn Indicators**: Analyzes key factors such as account balance, activity status, and credit card ownership in relation to churn.  
 **Geographic Distribution**: Shows churn across different countries.  
 These visualizations help identify the main drivers of customer churn and highlight opportunities for improvement in customer retention strategies.  
+![image](https://github.com/user-attachments/assets/407e400d-a64d-4674-a410-76b8d83ac119)
+
+
 
 ## Tools Used
 **Power BI**: For creating interactive dashboards.  
