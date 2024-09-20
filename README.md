@@ -18,26 +18,26 @@ The dataset contains the following features:
 **Churn**: Whether the customer has churned (1 = Churned, 0 = Active).  
 
 ### Step 1: Data Transformation
-The following transformations were applied to clean and prepare the dataset:
+The following transformations were applied to clean and prepare the dataset:  
 
-**Removed "estimated_salary"**: As account balance was deemed a better indicator for analysis.
-**Renamed and Reformatted Columns**: Changed column names and data types for easier analysis.
-**Removed "products_number"**: Replaced it with a more meaningful feature.
-**Modified "credit_card", "active_member", and "churn" statuses**: Standardized these values.
-**Grouped Age and Credit Score**: Created age groups (e.g., 21-30, 31-40) and credit score ranges.
-**Created Reference Columns**: Introduced new columns for age groups, account balance ranges, and credit score ranges to enhance visualizations.
-These steps ensured the data was clean, structured, and ready for analysis.
+**Removed "estimated_salary"**: As account balance was deemed a better indicator for analysis.  
+**Renamed and Reformatted Columns**: Changed column names and data types for easier analysis.  
+**Removed "products_number"**: Replaced it with a more meaningful feature.  
+**Modified "credit_card", "active_member", and "churn" statuses**: Standardized these values.  
+**Grouped Age and Credit Score**: Created age groups (e.g., 21-30, 31-40) and credit score ranges.  
+**Created Reference Columns**: Introduced new columns for age groups, account balance ranges, and credit score ranges to enhance visualizations.  
+These steps ensured the data was clean, structured, and ready for analysis.  
 
 ### Step 2: Visualizations
-After data preparation, the following visualizations were created using Power BI:
+After data preparation, the following visualizations were created using Power BI:  
 
-**Churn Rate Overview**: Displays overall churn rate and trends over time.
-**Customer Segmentation**: Churn distribution by age groups, credit score ranges, and more.
-**Churn Indicators**: Analyzes key factors such as account balance, activity status, and credit card ownership in relation to churn.
-**Geographic Distribution**: Shows churn across different countries.
-These visualizations help identify the main drivers of customer churn and highlight opportunities for improvement in customer retention strategies.
+**Churn Rate Overview**: Displays overall churn rate and trends over time.  
+**Customer Segmentation**: Churn distribution by age groups, credit score ranges, and more.  
+**Churn Indicators**: Analyzes key factors such as account balance, activity status, and credit card ownership in relation to churn.  
+**Geographic Distribution**: Shows churn across different countries.  
+These visualizations help identify the main drivers of customer churn and highlight opportunities for improvement in customer retention strategies.  
 
 ## Tools Used
-**Power BI**: For creating interactive dashboards.
-**Power Query**: For data cleaning and transformation.
-**DAX**: For creating calculated measures and metrics.
+**Power BI**: For creating interactive dashboards.  
+**Power Query**: For data cleaning and transformation.  
+**DAX**: For creating calculated measures and metrics.  
