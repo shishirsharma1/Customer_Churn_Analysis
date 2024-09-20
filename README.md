@@ -4,18 +4,18 @@ This project aims to analyze customer churn using Power BI. By transforming the 
 ## Understanding the Data
 The dataset contains the following features:
 
-**Customer_id**: Unique identifier for each customer. \n
-**Credit_score**: Customer’s credit score.
-**Country**: Country where the customer resides.
-**Gender**: Customer’s gender.
-**Age**: Customer’s age.
-**Tenure**: Duration of the customer’s relationship with the bank.
-**Balance**: Account balance of the customer.
-**Products_Number**: The product that the customer uses.
-**Credit_Card**: Whether the customer has a credit card (1 = Yes, 0 = No).
-**Active_Member**: Whether the customer is an active member (1 = Active, 0 = Inactive).
-**Estimated_Salary**: The estimated salary of the customer.
-**Churn**: Whether the customer has churned (1 = Churned, 0 = Active).
+**Customer_id**: Unique identifier for each customer.  
+**Credit_score**: Customer’s credit score.  
+**Country**: Country where the customer resides.  
+**Gender**: Customer’s gender.  
+**Age**: Customer’s age.  
+**Tenure**: Duration of the customer’s relationship with the bank.  
+**Balance**: Account balance of the customer.  
+**Products_Number**: The product that the customer uses.  
+**Credit_Card**: Whether the customer has a credit card (1 = Yes, 0 = No).  
+**Active_Member**: Whether the customer is an active member (1 = Active, 0 = Inactive).  
+**Estimated_Salary**: The estimated salary of the customer.  
+**Churn**: Whether the customer has churned (1 = Churned, 0 = Active).  
 
 ### Step 1: Data Transformation
 The following transformations were applied to clean and prepare the dataset:
